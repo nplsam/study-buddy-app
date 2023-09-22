@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../../assets/images/bgg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+  color: #7b3d53;
+}
+
+.register-container,
+.login-container {
+  background-color: #f0bada;
+  border-color: #eb7194;
+  padding: 10px 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 40vw;
+  height: 40vh;
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+.register-container input,
+.login-container input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 18px;
+}
+
+.form-container label {
+  font-size: 25px;
+  line-height: 1.8rem;
+}
+
+.login,
+.register {
+  cursor: pointer;
+}
+
+.login:hover,
+.register:hover {
+  background-color: #fee7f9;
+}
+
+.login,
+.register {
+  border: 5px solid #cea3bf;
+  box-shadow: 0 0 1px 8px #fbffff;
+  background-color: #99fff1;
+}
+
+.tab {
+  border: none;
+  padding: 20px;
+  width: 20vw;
+  background-color: #fee7f9;
+  cursor: pointer;
+  font-size: 25px;
+  overflow: hidden;
+  color: #7b3d53;
+}
+
+.tab.active {
+  background-color: #f0bbda;
+}
+
+
+
+
