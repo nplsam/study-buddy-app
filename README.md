@@ -1,31 +1,55 @@
 # MERN Project - Study Buddy App
 
 ## Table of Contents
-- **Project outline**
-- **FAQ**
-- **Bugs in the code**
+- [**Project outline**](#project-outline)
+    - [Key Technologies](#key-technologies)
+    - [Files with Axios Requests](#files-with-axios-requests-to-server)
+- [**FAQ**](#faq)
+- [**Bugs & Fixes/Updates**](#bugs--fixesupdates)
+    - [Updates](#updates)
+    - [Fixes](#fixes)
+    - [Bugs](#bugs)
 - **Run this app locally on your system**
-- **Deploy this app for your own use**
+    - [Pre-requisites](#pre-requisites)
+    - [Install Packages](#install-packages)
+    - [Setup](#setup)
+        - [Setup the Server](#setup-the-server)
+            - [Using .env file](#if-using-env)
+                - [Run the Docker Container](#run-the-docker-container)
+                - [Start the Server](#start-the-server)
+            - [NOT Using .env file](#if-not-using-env)
+                - [Run the Docker Container](#if-not-using-env)
+                - [Start the Server](#start-the-server-1)
+        - [Setup the Client](#setup-the-client)
+
+- [**Deploy this app for your own use**](#deploy-this-app-for-your-own-use)
+    - COMING SOON!
 
 ## Project Outline
 
 ### Key Technologies
-<details open>
-    <summary>Server-side</summary>
-        - Node.js
-        - Express.js
-        - Mongoose (MongoDB driver)
-        - Docker
-        - MongoDB (Docker)
-        - Jest & Supertest (not present on this sample repo)
+<details>
+<summary>Server-side</summary>
+
+- Node.js
+- Express.js
+- Mongoose (MongoDB driver)
+- Docker
+- MongoDB (Docker image)
+- Jest & Supertest (not present on this sample repo)
 </details>
-- Client-side
-    - React
-    - Axios
-    - Vite (bundler)
-    - Vitest (not present on this sample repo)
+
+<details>
+<summary>Client-side</summary>
+
+- React
+- Axios
+- Vite (bundler)
+- Vitest (not present on this sample repo)
+</details>
 
 ### Files With Axios Requests to Server
+*This will be useful for anyone who needs to change the localhost port number or request URL*
 
 | File (Relative Path from ./client/src) | Num of Requests | Lines of Code |
 |---|:-:|--:|
@@ -48,10 +72,19 @@
 
 ### Updates
 
+### Fixes
+*First line in __bold__ is a __sample__ for formatting*
+| Subject of Fix | Bug Details | Solution | Files | Potential Side-effects | Date & Time|
+|---|---|---|---|---|---|
+| __login submission__ | __users were not able to log in when button was clicked__ | __corrected the endpoint to '/auth/login' instead of '/login'__  | __./client/src/components/Login/index.jsx__ | __n/a__ | __23-09-2023 13:06 BST__ |
+|   |   |   |   |   |
+
+
 ### Bugs
 
-- Notes Page: The webpage goes blank/crashes if a user deletes completely clears all notes
-- Navigation/URL: When users enter the URL from an endpoint other than the root, the app returns  
+- __Notes Page:__ The webpage goes blank/crashes if a user deletes completely clears all notes
+- __Navigation/URL:__ When users enter the URL from an endpoint other than the root, the app returns
+
 ## Using This Repo
 1. Fork a copy of this repository onto your own account
 2. Clone this repository onto your local system
