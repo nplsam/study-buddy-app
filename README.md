@@ -9,6 +9,20 @@
 
 ## Project Outline
 
+### Files With Axios Requests to Server
+
+| File (Relative Path from ./client/src) | Num of Requests | Lines of Code |
+|---|:-:|--:|
+|__/Components/__| __--------__ | __--------------------__ |
+| ./Header/index.jsx | 1 | 12 | 
+| ./Login/index.jsx | 1 | 25 | 
+| ./PlannerForm/index.jsx | 2 | 43,82 | 
+| ./PlannerItem/index.jsx | 1 | 53 | 
+| ./Register/index.jsx | 1 | 25 | 
+| __./pages/__| __--------__ | __--------------------__ | 
+| ./NotesPage/index.jsx | 6 | 46,70,114,142,167,188 | 
+| ./PlannerPage/index.jsx | 2 | 23,50 | 
+
 ## FAQ
 
 *What is 'MERN'?*
@@ -115,7 +129,9 @@ when setting up the client or server, your pwd must be the directory you are tar
 
 1. Open a new terminal for the vite server
 2. Ensure you're in the ./client directory of the project in your terminal.
-3. run the command to start the react app
+3. **If you used a .env file with a PORT variable for your server port**, ensure all axios "localhost:<port_number>/" (defaulted to 5000 for this project) matches the port for your server.
+- *To do this, navigate to [files with axios requests](#files-with-axios-requests-to-server) to save you time looking through every file in ./src*
+4. run the command to start the react app
     - `npm run dev`
     - it should return a localhost to open the react app in-browser
 ## Deploy This App for Your Own Use
