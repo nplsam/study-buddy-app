@@ -1,6 +1,16 @@
 # MERN Project - Study Buddy App
 
+## Project Members:
+*Name - Role(s) for this project*: 
+- [__Sam Merrick__](https://github.com/nplsam) - Frontend
+- [__Stephanie Fung__](https://github.com/stephf2) - Frontend
+- [__Valentin Abrutin__](https://github.com/valentin-ab) - Frontend
+- [__Ravia Saini__](https://github.com/tryingbiomedeng) - Backend & Frontend Styling
+- [__Camille Francis__ (Me)](https://github.com/Cams-Plan)  - Backend & Backend Testing
 ## Table of Contents
+- [**Project Members**](#project-members)
+
+    Checkout our respective GitHub Pages 👩🏾‍💻📄
 - [**Project Outline**](#project-outline)
     - [Key Technologies](#key-technologies)
     - [Files with Axios Requests](#files-with-axios-requests-to-server)
