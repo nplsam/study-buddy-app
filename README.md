@@ -14,7 +14,23 @@
 *What is 'MERN'?*
 - An fullstack application that utilises a tech stack of (M) Mongo-DB, (E) Express, (R) React and (N) NodeJS
 
+## Bugs & Fixes/Updates
 
+### Updates
+
+### Bugs
+
+- Notes Page: The webpage goes blank/crashes if a user deletes completely clears all notes
+- Navigation/URL: When users enter the URL from an endpoint other than the root, the app returns  
+## Using This Repo
+1. Fork a copy of this repository onto your own account
+2. Clone this repository onto your local system
+    - open your terminal (Git Bash or Linux)
+    - create a directory to host the project and enter it 
+    `mkdir <dirname> && cd $_`
+    - clone the repository into the current directory and open in vscode
+    `git clone https://github.com/Cams-Plan/LAP3-study-buddy-app.git . && code .`
+3. Users will not be able to make any changes to the main branch of this repo, so any changes must be done on your own fork.
 
 ## Run This App Locally on Your System
 
@@ -23,10 +39,85 @@
 - Node 18 (and up)
 - Docker Desktop
 - Docker Extension
+### Install Packages
+- **Server**
+    - enter the server directory
+    `cd server` (if in root of the project)
+    - install the packages
+    `npm i` OR `npm i && npm i -D`
+    *if successful there will be a package-lock.json in the root of the server directory*
+    [Setup the Server](#setup-the-server)
 
-#### Using This Repo
-1. Fork a copy of this repository onto your own account
-2. 
+- **Client**
+    - enter the client directory
+        - `cd server` (if in root of the project)
+    - install the packages
+        - `npm i` OR `npm install --legacy-peer-deps`
+    - *if successful there will be a package-lock.json in the root of the server directory*
+    [Setup the client](#setup-the-client)
 
+### Setup
+when setting up the client or server, your pwd must be the directory you are targeting, don't forget. check your path or use `pwd` to double check as you go
+#### Setup The Server
 
+##### If using .env
+- create a *.env* file within the root of the server directory
+- enter the values for all capitalised variables
+(DB_CONNECTION (database URI), PORT (localhost port))
+###### Run the Docker container
+1. Open Docker Desktop
+2. Run the docker container for the database. This can be done two ways:
+
+    matching the entry point to mongodb
+    - `docker run --rm -d -p 27017:27017 --name studyApp-db mongo`
+
+    using a custom port as an entry point
+    - `docker run --rm -d -p <custom_port>:27017 --name studyApp-db mongo`
+
+    *__Note: If you're using an entry point other than 27017__, you __must__ have a DB_CONNECTION variable with the non-default port. e.g. mongodb://localhost:9000/studyApp-db*
+3. Access the database
+    - `docker exec -it <db_container_name> mongosh`
+4. Enter the studyApp-db database to access the data collections
+    - `use studyApp-db`
+- *Should be empty since the server hasn't been started up at any point ( enter the command `show collecitons` to check)*
+###### Start the Server
+1. open a new terminal to run the server
+2. check your environment variables are correct in your .env file
+3. run the command to start the server
+    - `npm run dev`
+- *If successful all expected logs for the server initialisation and database connection should be in the console*
+4. Switch over to the mongodb terminal. If you run the command `show collections`, there should be collections for every database schema model.
+
+**The Server is now ready! 😁💻✔**
+    
+##### If NOT using .env
+1. Open Docker Desktop
+2. Run the docker container for the database
+    - `docker run --rm -d -p 27017:27017 --name studyApp-db mongo`
+3. Access the database
+    - `docker exec -it <db_container_name> mongosh`
+4. Enter the studyApp-db database to access the data collections
+    - `use studyApp-db`
+    - *Should be empty since the server hasn't been started up at any point (`show collecitons` to check)*
+###### Start the Server
+1. open a new terminal to run the server
+2. check your environment variables are correct in your .env file
+3. run the command to start the server
+    - `npm run dev`
+- *If successful all expected logs for the server initialisation and database connection should be in the console*
+4. Switch over to the mongodb terminal. If you run the command `show collections`, there should be collections for every database schema model.
+
+**The Server is now ready! 😁💻✔**
+
+#### Setup The Client
+
+*if packages have not been installed please navigate up to [Install Packages](#install-packages)*
+
+1. Open a new terminal for the vite server
+2. Ensure you're in the ./client directory of the project in your terminal.
+3. run the command to start the react app
+    - `npm run dev`
+    - it should return a localhost to open the react app in-browser
 ## Deploy This App for Your Own Use
+
+__COMING SOON...__
