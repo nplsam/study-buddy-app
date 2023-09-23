@@ -12,6 +12,8 @@
 
     Checkout our respective GitHub Pages 👩🏾‍💻📄
 - [**Project Outline**](#project-outline)
+    - [The Deployed App](#the-deployed-app)
+    - [Key Functionality](#key-functionality)
     - [Key Technologies](#key-technologies)
     - [Files with Axios Requests](#files-with-axios-requests-to-server)
 - [**FAQ**](#faq)
@@ -36,6 +38,45 @@
     - COMING SOON!
 
 ## Project Outline
+
+### The Deployed App
+
+Interested in a preview of how this app works?
+
+To take a look at this project live by clicking the text below.
+
+[__Studdy Buddy (Live)__](https://revision-app.onrender.com/)
+
+*Note: it's reployed on the free version of render so there may be a small delay when you first access the website*
+
+### Key Functionality
+
+<details>
+<summary>Server-side</summary>
+
+- GET/POST/PATCH for Notes
+- GET/POST/DELETE for Authentication
+- GET/POST/DELETE for Planner
+- Session tokens
+- Authentication middleware
+- Password and token encryption
+</details>
+
+<details>
+<summary>Client-side</summary>
+
+- __Registration/Login/Logout__
+- __Pomodoro Timer__
+    - Set times & Custom times
+    - Chime sound plays when timer ends *(sound available on Pomodoro page, Homepage & Notes page)*
+    - Work/rest toggle
+- __Calendar-style Planner__
+    - Add entries at the top of the page or directly on the target date
+    - Edit & delete entries
+- __Notes page for user's study notes__
+    - Search user's notes by Title
+    - Filter by Subject
+</details>
 
 ### Key Technologies
 <details>
