@@ -83,7 +83,7 @@
 ### Bugs
 
 - __Notes Page:__ The webpage goes blank/crashes if a user deletes completely clears all notes __[major]__.
-- __Navigation/URL:__ Webpage presentation is not responsive to mobile specs __[minor]__.
+- __Styling/Layout:__ Webpage presentation is not responsive to mobile specs __[minor]__.
 
 ## Using This Repo
 1. Fork a copy of this repository onto your own account
