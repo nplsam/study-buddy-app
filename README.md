@@ -1,4 +1,4 @@
-# MERN Project - Study Buddy App
+# MERN Project (Collaborative) - Study Buddy App
 
 ## Project Members:
 *Name - Role(s) for this project*: 
