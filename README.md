@@ -13,7 +13,7 @@
     Checkout our respective GitHub Pages 👩🏾‍💻📄
 - [**Project Outline**](#project-outline)
     - [The Deployed App](#the-deployed-app)
-    - [Key Functionality](#key-functionality)
+    - [Key Features & Functionality](#key-features--functionality)
     - [Key Technologies](#key-technologies)
     - [Files with Axios Requests](#files-with-axios-requests-to-server)
 - [**FAQ**](#faq)
@@ -49,7 +49,7 @@ To take a look at this project live by clicking the text below.
 
 *Note: it's reployed on the free version of render so there may be a small delay when you first access the website*
 
-### Key Functionality
+### Key Features & Functionality
 
 <details>
 <summary>Server-side</summary>
