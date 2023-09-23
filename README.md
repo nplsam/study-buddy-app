@@ -10,13 +10,15 @@
 ## Project Outline
 
 ### Key Technologies
-- Server-side
-    - Node.js
-    - Express.js
-    - Mongoose (MongoDB driver)
-    - Docker
-    - MongoDB (Docker)
-    - Jest & Supertest (not present on this sample repo)
+<details open>
+    <summary>Server-side</summary>
+        - Node.js
+        - Express.js
+        - Mongoose (MongoDB driver)
+        - Docker
+        - MongoDB (Docker)
+        - Jest & Supertest (not present on this sample repo)
+</details>
 - Client-side
     - React
     - Axios
