@@ -1,7 +1,7 @@
 # MERN Project - Study Buddy App
 
 ## Table of Contents
-- [**Project outline**](#project-outline)
+- [**Project Outline**](#project-outline)
     - [Key Technologies](#key-technologies)
     - [Files with Axios Requests](#files-with-axios-requests-to-server)
 - [**FAQ**](#faq)
@@ -9,7 +9,7 @@
     - [Updates](#updates)
     - [Fixes](#fixes)
     - [Bugs](#bugs)
-- **Run this app locally on your system**
+- [**Run This App Locally on Your System**](#run-this-app-locally-on-your-system)
     - [Pre-requisites](#pre-requisites)
     - [Install Packages](#install-packages)
     - [Setup](#setup)
