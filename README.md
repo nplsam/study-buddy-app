@@ -8,20 +8,20 @@
 - [__Ravia Saini__](https://github.com/tryingbiomedeng) - Backend & Frontend Styling
 - [__Camille Francis__ (Me)](https://github.com/Cams-Plan)  - Backend & Backend Testing
 ## Table of Contents
-- [**Project Members**](#project-members)
+1. [**Project Members**](#project-members)
 
     Checkout our respective GitHub Pages 👩🏾‍💻📄
-- [**Project Outline**](#project-outline)
+2. [**Project Outline**](#project-outline)
     - [The Deployed App](#the-deployed-app)
     - [Key Features & Functionality](#key-features--functionality)
     - [Key Technologies](#key-technologies)
     - [Files with Axios Requests](#files-with-axios-requests-to-server)
-- [**FAQ**](#faq)
-- [**Bugs & Fixes/Updates**](#bugs--fixesupdates)
+3. [**FAQ**](#faq)
+4. [**Bugs & Fixes/Updates**](#bugs--fixesupdates)
     - [Updates](#updates)
     - [Fixes](#fixes)
     - [Bugs](#bugs)
-- [**Run This App Locally on Your System**](#run-this-app-locally-on-your-system)
+5. [**Run This App Locally on Your System**](#run-this-app-locally-on-your-system)
     - [Pre-requisites](#pre-requisites)
     - [Install Packages](#install-packages)
     - [Setup](#setup)
@@ -34,7 +34,7 @@
                 - [Start the Server](#start-the-server-1)
         - [Setup the Client](#setup-the-client)
 
-- [**Deploy this app for your own use**](#deploy-this-app-for-your-own-use)
+6. [**Deploy this app for your own use**](#deploy-this-app-for-your-own-use)
     - COMING SOON!
 
 ## Project Outline
