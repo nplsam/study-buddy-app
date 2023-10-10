@@ -2,40 +2,38 @@
 
 ## Project Members:
 *Name - Role(s) for this project*: 
-- [__Sam Merrick__](https://github.com/nplsam) - Frontend
+- [__Sam Merrick__](https://github.com/nplsam) - Fullstack & Frontend Testing
 - [__Stephanie Fung__](https://github.com/stephf2) - Frontend
 - [__Valentin Abrutin__](https://github.com/valentin-ab) - Frontend
 - [__Ravia Saini__](https://github.com/tryingbiomedeng) - Backend & Frontend Styling
 - [__Camille Francis__ (Me)](https://github.com/Cams-Plan)  - Backend & Backend Testing
 ## Table of Contents
-1. [**Project Members**](#project-members)
-
-    Checkout our respective GitHub Pages 👩🏾‍💻📄
-2. [**Project Outline**](#project-outline)
+- [MERN Project (Collaborative) - Study Buddy App](#mern-project-collaborative---study-buddy-app)
+  - [Project Members:](#project-members)
+  - [Table of Contents](#table-of-contents)
+  - [Project Outline](#project-outline)
     - [The Deployed App](#the-deployed-app)
-    - [Key Features & Functionality](#key-features--functionality)
+    - [Key Features \& Functionality](#key-features--functionality)
     - [Key Technologies](#key-technologies)
-    - [Files with Axios Requests](#files-with-axios-requests-to-server)
-3. [**FAQ**](#faq)
-4. [**Bugs & Fixes/Updates**](#bugs--fixesupdates)
+    - [Files With Axios Requests to Server](#files-with-axios-requests-to-server)
+  - [FAQ](#faq)
+  - [Bugs \& Fixes/Updates](#bugs--fixesupdates)
     - [Updates](#updates)
     - [Fixes](#fixes)
     - [Bugs](#bugs)
-5. [**Run This App Locally on Your System**](#run-this-app-locally-on-your-system)
-    - [Pre-requisites](#pre-requisites)
+  - [Using This Repo](#using-this-repo)
+  - [Run This App Locally on Your System](#run-this-app-locally-on-your-system)
+    - [Pre-requisites:](#pre-requisites)
     - [Install Packages](#install-packages)
     - [Setup](#setup)
-        - [Setup the Server](#setup-the-server)
-            - [Using .env file](#if-using-env)
-                - [Run the Docker Container](#run-the-docker-container)
-                - [Start the Server](#start-the-server)
-            - [NOT Using .env file](#if-not-using-env)
-                - [Run the Docker Container](#if-not-using-env)
-                - [Start the Server](#start-the-server-1)
-        - [Setup the Client](#setup-the-client)
-
-6. [**Deploy this app for your own use**](#deploy-this-app-for-your-own-use)
-    - COMING SOON!
+      - [Setup The Server](#setup-the-server)
+        - [If using .env](#if-using-env)
+          - [Run the Docker container](#run-the-docker-container)
+          - [Start the Server](#start-the-server)
+        - [If NOT using .env](#if-not-using-env)
+          - [Start the Server](#start-the-server-1)
+      - [Setup The Client](#setup-the-client)
+  - [Deploy This App for Your Own Use](#deploy-this-app-for-your-own-use)
 
 ## Project Outline
 
