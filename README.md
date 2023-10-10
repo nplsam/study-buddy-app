@@ -6,7 +6,7 @@
 - [__Stephanie Fung__](https://github.com/stephf2) - Frontend
 - [__Valentin Abrutin__](https://github.com/valentin-ab) - Frontend
 - [__Ravia Saini__](https://github.com/tryingbiomedeng) - Backend & Frontend Styling
-- [__Camille Francis__ (Me)](https://github.com/Cams-Plan)  - Backend & Backend Testing
+- [__Camille Francis__](https://github.com/Cams-Plan)  - Backend & Backend Testing
 ## Table of Contents
 - [MERN Project (Collaborative) - Study Buddy App](#mern-project-collaborative---study-buddy-app)
   - [Project Members:](#project-members)
